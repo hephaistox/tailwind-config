@@ -36,6 +36,6 @@ module.exports = {mode: 'jit',
                                                      'primary':'#f9fafb',
                                                      'secondary': '#9ca3af'}}}},
                   plugins: [require('@tailwindcss/forms'),
-                            require('tw-elements/dist/plugin.cjs')],
+                            require('tw-elements/plugin.cjs')],
 
                   darkMode: 'class'}

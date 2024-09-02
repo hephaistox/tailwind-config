@@ -35,7 +35,6 @@ module.exports = {mode: 'jit',
                                      'theme-light': {DEFAULT: '#f9fafb',
                                                      'primary':'#f9fafb',
                                                      'secondary': '#9ca3af'}}}},
-                  plugins: [require('@tailwindcss/forms'),
-                            require('tw-elements/plugin.cjs')],
+                  plugins: [require('@tailwindcss/forms')],
 
                   darkMode: 'class'}
